@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Alberto Elias Do Amaral Júnior">
+        <meta name="description" content="Informações sobre Delivery na sua cidade!">
+        <meta name="keywords" content="Delivery, Covid-19, Informações, Coronavírus, COVID-19, Setapp-UFV">
+        <meta http-equiv="content-language" content="pt-br" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="copyright" content="© 2020 SetApp UFV" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="cache-control"   content="no-cache" />
+        <meta name="revisit-after" content="1 day" />
+        <meta name="rating" content="general" />
+        <meta name="robots" content= "index, follow">
+        <link rel="icon" 
+            type="image/png" 
+            href="https://www.setappufv.com.br/imagens/favicon.png">
 
-        <title>Laravel</title>
+        <title>Delivery - Informações sobre a sua cidade</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -45,8 +59,14 @@
             }
 
             .title {
-                font-size: 63px;
-                width: 70vw;
+                font-size: 2.5rem;
+            }
+
+            @media only screen and (min-width: 600px)  {
+                .title {
+                    font-size: 3.5rem;
+                    width: 70vw;
+                }
             }
 
             .links > a {
@@ -78,11 +98,11 @@
                         @endif
                     @endauth
                 </div>
-            @endif
+            @endif  
 
             <div class="content">
                 <div class="title m-b-md">
-                    Em breve informações sobre <strong>Delivery</strong> na SUA cidade!
+                    Em breve informações sobre <strong>Delivery</strong> na sua cidade!
                 </div>
 
                 <div class="links">
