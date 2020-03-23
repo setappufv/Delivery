@@ -14,6 +14,7 @@
         <meta name="revisit-after" content="1 day" />
         <meta name="rating" content="general" />
         <meta name="robots" content= "index, follow">
+        <meta itemprop="image" content="https://www.setappufv.com.br/imagens/setapp-350x350.png">
         <link rel="icon" 
             type="image/png" 
             href="https://www.setappufv.com.br/imagens/favicon.png">
