@@ -19,7 +19,7 @@
             type="image/png" 
             href="https://www.setappufv.com.br/imagens/favicon.png">
 
-        <title>Delivery - Informações sobre a sua cidade</title>
+        <title>Delivery - Informações sobre a sua cidade!</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
